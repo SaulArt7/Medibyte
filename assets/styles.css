@@ -31,7 +31,12 @@ color: #004E92 !important;
     color: #81848a;
 }
 
-
+.image {
+    background-image: url('./logos/humanos.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    opacity: 0.6;
+}
 
 .showcase {
     position: relative;
