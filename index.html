@@ -10,14 +10,12 @@
     <title>MediByte</title>
   </head>
 
-
-<body>
-    
+<body> 
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex p-0">
         <div class="container-fluid">
-          <a class="navbar-brand ms-5 p-0" href="#"><img src="assets/logos/MediByte2.png" alt="logo" width="170px"></a>
+          <a class="navbar-brand ms-5 p-0" href="#"><img src="assets/MediByte2.png" alt="logo" width="170px"></a>
 
           <div class="links-navbar">
 
@@ -29,8 +27,8 @@
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
               <a class="nav-link" href="#nosotros">Nosotros</a>
-              <a class="nav-link" href="#">Servicios</a>
-              <a class="nav-link me-3" href="#">Contacto</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
+              <a class="nav-link me-3" href="#contacto">Contacto</a>
               <a class="nav-link navbar-btn" href="login.html" target="_blank">Iniciar Sesión</a>
             </div>
           </div>
@@ -120,25 +118,30 @@
 
 
     <!--Servicios-->  
-    <section class="servicios">
+
+    <button class="boton" onclick="location.href='servicioControl.html'"  target="_blank">
+      <span>Ver Más</span>
+  </button>
+
+    <section class="servicios" id="servicios">
       <div class="servicios-flex">
         <div class="seccion-parte">
           <h2>Instituciones</h2>
           <img src="assets/Doctor.png" alt="">
           <p>Controla en tiempo real tus indicadores, tu calidad.</p>
-          <button class="boton">
+          <button class="boton" onclick="location.href='servicioControl.html'" target="_blank">
               <span>Ver Más</span>
               <svg viewBox="0 0 13 10" height="9px" width="15px">
                   <path d="M1,5 L11,5"></path>
                   <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
+              </svg>             
           </button>
         </div class>
         <div class="seccion-parte">
           <h2>Especialistas</h2>
           <img src="assets/Doctor.png" alt="">
           <p>Publica tu perfil, tu agenda disponible</p>
-          <button class="boton">
+          <button class="boton" onclick="location.href='servicioCitas.html'">
               <span>Ver Más</span>
               <svg viewBox="0 0 13 10" height="9px" width="15px">
                   <path d="M1,5 L11,5"></path>
@@ -150,7 +153,7 @@
             <h2>Usuarios</h2>
             <img src="assets/Doctora.png" alt="">
             <p>Adquiere tus medicamentos, opotunamente</p>
-            <button class="boton">
+            <button class="boton" onclick="location.href='servicioCompra.html'">
                 <span>Ver Más</span>
                 <svg viewBox="0 0 13 10" height="9px" width="15px">
                     <path d="M1,5 L11,5"></path>
@@ -163,7 +166,7 @@
 
      <!--formulario contacto  -->
       
-          <div class="row justify-content-around   container-fluid  mt-3 ">
+          <div id="contacto" class="row justify-content-around   container-fluid  mt-3 ">
             <div class="col container d-flex flex-wrap">
                 <div class=" container d-flex  col-8   d-flex flex-wrap shadow p-3 mb-5 bg-body rounded mt-3">
                    
