@@ -1,3 +1,56 @@
+.nav-link {
+    color: #004E92 !important;
+    }
+    
+    .navbar-btn {
+        border: #004E92 solid 0.21rem;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .navbar-btn:hover {
+        border: white solid 0.21rem;
+        background-color: #004E92;
+        color: white !important;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .dark-blue {
+        background: #004E92;
+        
+    }
+    
+    .gray{
+        color: #81848a;
+    }
+    
+    .image {
+        background-image: url('./logos/humanos.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 115%;
+        opacity: 0.6;
+    }
+    
+    .showcase {
+        position: relative;
+    }
+    
+    .center {
+        position: absolute;
+        bottom: 350px;
+         
+    }
+    
+    .increase {
+        position: absolute;
+        bottom: 40px;
+        left: 1px;
+    }
+
+
 
 /* cristian */
 .bg-1 {
@@ -150,7 +203,7 @@
 }
 
 .user_placeholder::placeholder {
-    background-image: url(/Login_Medi_Byte/assets/user.png);
+    background-image: url(assets/user.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -158,7 +211,7 @@
 }
 
 .user_placeholder2::placeholder {
-    background-image: url(/Login_Medi_Byte/assets/lock.png);
+    background-image: url(assets/lock.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: left center;
