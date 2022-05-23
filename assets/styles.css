@@ -31,20 +31,18 @@ color: #004E92 !important;
     color: #81848a;
 }
 
-
-
 .showcase {
     position: relative;
 }
 
 .center {
     position: absolute;
-    bottom: 350px;
+    bottom: 370px;
      
 }
 
 .increase {
     position: absolute;
-    bottom: 40px;
+    bottom: 65px;
     left: 1px;
 } */
