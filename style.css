@@ -53,6 +53,19 @@ font-family: 'Poppins', sans-serif;
         bottom: 40px;
         left: 1px;
     }
+
+    .responsive-form {
+        width: 500px ;
+    }
+
+    .dark-blue-text {
+        color: #004E92;
+    }
+
+    .responsive {
+        width: max-content;
+    }
+
 /*Brayan Servicios*/
 .servicios{
     text-align: center;
