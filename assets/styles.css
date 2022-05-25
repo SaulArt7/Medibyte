@@ -42,3 +42,7 @@ color: #004E92 !important;
 .underline:hover::after {
     transform: scaleX(1);
 }
+
+.title-color {
+    color: #004E92;
+}
