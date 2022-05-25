@@ -95,7 +95,7 @@ font-family: 'Poppins', sans-serif !important;
         width: max-content;
     }
 
-/*Brayan Servicios*/
+/*          Brayan Servicios            */
 .servicios{
     text-align: center;
     font-family: sans-serif;
@@ -125,8 +125,8 @@ font-family: 'Poppins', sans-serif !important;
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
-.servicios h2{
-    margin-bottom: 2.5rem;
+.servicios h3{
+    margin: 2.5rem;
 }
 
 .servicios img{
@@ -138,12 +138,12 @@ font-family: 'Poppins', sans-serif !important;
     position: relative;
     margin: auto;
     margin-bottom: 1rem;
-    padding: 12px 18px;
+    padding: 10px 18px;
     transition: all 0.2s ease;
     border: none;
     background: none;
 }
-   
+ 
 .boton:before {
     content: "";
     position: absolute;
