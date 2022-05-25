@@ -1,0 +1,53 @@
+Generales:
+
+Redacción:
+- Frases: 
+ * Banner (3) Llamado a la empatía'
+-- "La atención humanizada inicia desde que solicitas la cita en tu móvil."
+-- "Datos en tiempo real para decisiones realmente acertadas.
+-- "Tus medicamentos de forma oportuna y segura".
+
+* Fotos: Buscar las definitivas (sin restricción)
+* Carpetas:
+- assets
+--- images
+----- banner
+----- backgrounds
+----- servicioCompra
+------- products
+----- servicioCitas
+----- servicioControl
+--- icons
+--- logos
+styles.css
+functions.css
+
+ * Botón estandarizado con color del Botón de página del Login
+
+NavBar y nosotros:
+* Animación sugerida por Brayan (linear gradient)
+* Arreglar Botón de Hamburguesa en reposive
+* Título "nosotros" azul, h2, margen
++++ Propuesta de Footer
+
+Servicios:
+* * Título azul, h2, margen
+* Página de testimonios*
+
+Contacto y Footer
+* Título azul, h2, margen
+
+E-Commerce:
+* Integrar la NavBar (después del Merge)
+* Hacer responsive las tarjetas de productos
+* Botón estandarizado en las tarjetas
+
+Servicio Control:
+* Hacer responsive imágenes -
+* Texto de color de la paleta -
+* NavBar Fija arriba (después del Merge) ***
+* Imágenes sin bordes, con box-shadow 
+* Espaciado respecto a imágenes
+
+Servicio Citas:
+* Colores de tabla de la paleta: dejar azul blanco intercalados.
