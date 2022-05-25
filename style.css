@@ -83,6 +83,17 @@ font-family: 'Poppins', sans-serif;
         color: #004E92;
     }
 
+    .responsive-form {
+        width: 500px ;
+    }
+
+    .dark-blue-text {
+        color: #004E92;
+    }
+
+    .responsive {
+        width: max-content;
+    }
 
 /*Brayan Servicios*/
 .servicios{

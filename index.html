@@ -165,49 +165,60 @@
 
      <!--formulario contacto  -->
 
-     <div class="container d-flex flex-wrap mt-3">
+     <div class="container d-flex flex-wrap mt-3 responsive-form mt-5">
       <div class="container d-flex flex-wrap justify-content-center">
-        <h3>Formulario de Contacto</h3>
+        <h2 class="dark-blue-text">Formulario de Contacto</h2>
       </div>
      </div>
       
-     <div class="row justify-content-around mt-3 ">
-      <div class="container d-flex flex-wrap">
-          <div class=" container d-flex flex-wrap shadow p-3 mb-5 bg-body rounded mt-3">
+     <div class="row justify-content-around   container-fluid  mt-3  ">
+      <div class="col container d-flex flex-wrap">
+          <div class="responsive responsive-form container d-flex  col-8   d-flex flex-wrap shadow p-3 mb-5 bg-body rounded mt-3">
              <div class="container d-flex">
                <p class="h6 text-center">Escribenos y en breve nos pondremos en contacto contigo</p>
              </div>
-             <div class="container-fluid">
-              <form action="#" >
-                <div class="mb-3 row">
+             <div class="container flex-wrap col-12 d-flex">
+              <form  action="#" >
+                <div class="mb-3 row ">
                   <label for="exampleInputEmail1" class="form-label"></label>
                   <input type="text" class="form-control form-control-lg"  placeholder="Nombres y Apellidos">
                 </div>
 
                 <div class="mb-3 row">
-                  <input type="email" class="form-control form-control-lg " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico">
+                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico">
                 </div>
 
                 <div class="mb-3 row">
-                  <input type="text" class="form-control form-control-lg "  placeholder="Asunto">
+                  <input type="text" class="form-control form-control-lg"  placeholder="Asunto">
                 </div>
 
                 <div class="mb-3 row">
                   <textarea class="form-control form-control-lg" placeholder="Mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
                 </div>
 
-                <div class="d-grid gap-2">
-                  <input class="dark-blue text-white" type="submit" value="Enviar">  
+                <div class="d-grid gap-2  ">
+                  <input class="btn btn dark-blue text-white" type="submit" value="Enviar">  
                 </div>
 
               </form>
-            </div>
+             </div>
+              
+        
             </div>
       </div>
                   
-            <div class="col  mx-auto d-flex container justify-content-center flex-wrap" >
+
+<!--       Probar esta sección en reponsive -->
+  <!--           <div class="col  mx-auto d-flex container justify-content-center flex-wrap" >
               <div class="container-fluid d-flex  flex-wrap  justify-content-center " > 
-                  <div  class=" d-flex flex-wrap container justify-content-center ">
+
+ -->            
+       <!--      <div class="col " > -->
+<!--               <div class="container-fluid d-flex  flex-wrap  justify-content-center responsive-form " > 
+                  <div  class=" d-flex flex-wrap container justify-content-center "> -->
+
+                    <div class="col  mx-auto d-flex container justify-content-center flex-wrap" >
+                      <div class="container-fluid d-flex  flex-wrap  justify-content-center " >
                     <h2 >Contactenos</h2>
                   </div>
                   
@@ -235,7 +246,6 @@
           </div>
 
 <!-- footer -->
-
 <footer class="container-fluid d-flex bg-light border-top flex-wrap justify-content-between align-items-center">
   <div class="ms-5 me-5">
     <img src="assets/MediByte2.png" alt="" width="200px" >
