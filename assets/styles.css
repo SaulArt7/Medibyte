@@ -471,7 +471,6 @@ font-family: 'Sora', sans-serif !important;
 }
 .testimonios h2 {
 	position: relative;
-    color: #1c92d2!important;
 }
 .testimonios h2::after {
 	content: "";
@@ -516,7 +515,7 @@ button img{
 }
 /* Páginas de Servicio Control y Servicio Citas */
 .fix-fixed-top {
-    height: 4rem;
+    height: 5rem;
 }
 /*Estilos de ServicioCitas*/
 
