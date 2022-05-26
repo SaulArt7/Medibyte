@@ -424,23 +424,6 @@ font-family: 'Sora', sans-serif !important;
     font-weight: bold;
     font-size: 16px;
 }
-    
-/*Estilos de ServicioCitas*/
-
-.table-infox {
-    --bs-table-bg: #cff4fc;
-    --bs-table-striped-bg: #c5e8ef;
-    --bs-table-striped-color: #000;
-    --bs-table-active-bg: #badce3;
-    --bs-table-active-color: #000;
-    --bs-table-hover-bg: #bfe2e9;
-    --bs-table-hover-color: #000;
-    color: #000;
-    border-color: #badce3;
-  }
-
-
-  /*Estilos ServicioCompra */
 
   .banner-nav {
     background-color: #004e92;
@@ -486,3 +469,38 @@ font-family: 'Sora', sans-serif !important;
  .card-title{
      color: #004e92;
  }
+
+/* Páginas de Servicio Control y Servicio Citas */
+.fix-fixed-top {
+    height: 6rem;
+}
+/*Estilos de ServicioCitas*/
+
+.table-infox {
+    --bs-table-bg: #aad8ef;/* #cff4fc */
+    --bs-table-striped-bg: #c5e8ef;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #badce3;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #bfe2e9;
+    --bs-table-hover-color: #000;
+    color: #000;
+    border-color: #badce3;
+  }
+
+  .table-warningx {
+    --bs-table-bg: #f2fcfe;/* #cff4fc */
+    --bs-table-striped-bg: #c5e8ef;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #badce3;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #bfe2e9;
+    --bs-table-hover-color: #000;
+    color: #000;
+    border-color: #badce3;
+  }
+
+  /*Estilos ServicioCompra */
+
+/* <!-- #1c92d2 -->
+<!-- #004e92 --> */
