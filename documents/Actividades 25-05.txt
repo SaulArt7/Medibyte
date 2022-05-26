@@ -48,6 +48,5 @@ Cristian G:
 *Saúl*
 Servicio Control:
 * Arreglar espaciado por la NavBar Fija arriba (después del Merge) ***
-* Imágenes sin bordes, con box-shadow
 Servicio Citas:
 * Colores de tabla de la paleta: dejar azul blanco intercalados.
