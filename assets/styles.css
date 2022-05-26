@@ -73,8 +73,7 @@ font-family: 'Sora', sans-serif !important;
         transform: scaleX(0);
         transform-origin: left;
         transition: transform .25s ease;
-    
-    }
+}
     
     .underline:hover::after {
         transform: scaleX(1);
@@ -547,3 +546,37 @@ button img{
 
 /* <!-- #1c92d2 -->
 <!-- #004e92 --> */
+
+
+/* Formulario de Contacto Brayan*/
+.contacto-form input, .contacto-form textarea{
+    border: 1px solid #ced4da;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+.contacto-form button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.contacto-form button::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10%;
+    height: 2px;
+    background: #004E92;
+    border-radius: 50px;
+    transform: translateY(5px);
+    transition: .25s ease;
+}
+.contacto-form button:hover::after{
+    width: 100%;
+}
