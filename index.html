@@ -30,28 +30,13 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light d-flex p-0 fixed-top"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand ms-5 p-0" href="#"
-          ><img src="assets/logos/MediByte2.png" alt="logo" width="170px"
-        /></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex p-0 fixed-top">         
+          <a class="navbar-brand ms-5 p-0" href="#"><img src="assets/logos/MediByte2.png" alt="logo" width="170px"></a>   
 
-        <div class="links-navbar pt-3 pb-2">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler me-3" type=button data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse me-4" id="navbarNavAltMarkup">
+          </button>        
+          <div class="collapse navbar-collapse ms-4 me-4 links-navbar pt-3 pb-2 justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a
                 class="nav-link underline"
@@ -62,15 +47,11 @@
               <a class="nav-link underline" href="#nosotros">Nosotros</a>
               <a class="nav-link underline" href="#servicios">Servicios</a>
               <a class="nav-link underline me-3" href="#contacto">Contacto</a>
-              <a class="nav-link navbar-btn" href="login.html" target="_blank"
-                >Iniciar Sesión</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Fin de NavBar ------------------------------------------------------------------------------->
+              <a class="nav-link navbar-btn text-center" href="login.html" target="_blank">Iniciar Sesión</a>
+            </div>  
+          </div>                
+      </nav>
+<!-- Fin de NavBar ------------------------------------------------------------------------------->  
 
     <!-- carrusel inicio -->
 
@@ -198,23 +179,27 @@
         </p>
       </div>
 
-      <div class="align-content-end d-inline-flex">
-        <img
-          src="assets/images/nosotros2.png"
-          alt="nosotros1"
-          class="img-fluid vh-50 p-5"
-        />
+      <div class="container d-block d-sm-none">
+
+        <div class="align-content-end ">
+        <img src="assets/images/nosotros3.png" alt="nosotros1" class="img-fluid vh-50 p-5"> 
+        </div>
+
+        <div class="align-content-start text-wrap container d-flex">
+        <p class="justify-items-center d-inline-flex align-self-center">Facilitamos la gestión eficiente de los recursos en diferentes procesos y servicios a través de la tecnología. </p>
+        </div>
+
       </div>
     </div>
 
       <div class="container d-sm-flex d-none">
 
         <div class="align-content-start text-wrap container d-inline-flex">
-          <p class="justify-items-center d-inline-flex align-self-center">Somos una empresa de software  que ofrece soluciones innovadoras a problemas frecuentes de las instituciones de salud....... Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda saepe porro non cupiditate veniam ea recusandae. Tempora libero, debitis rerum laborum voluptas laudantium, numquam aut rem ducimus et, consequuntur obcaecati!</p>
+          <p class="justify-items-center d-inline-flex align-self-center">Facilitamos la gestión eficiente de los recursos en diferentes procesos y servicios a través de la tecnología.</p>
           </div>
 
         <div class="align-content-end d-inline-flex">
-        <img src="assets/images/nosotros2.png" alt="nosotros1" class="img-fluid vh-50 p-5"> 
+        <img src="assets/images/nosotros3.png" alt="nosotros1" class="img-fluid vh-50 p-5"> 
         </div>
 
       </div>
@@ -349,36 +334,25 @@
      
 
 <!-- Inicio de footer --------------------------------------------------------------------------->
-<footer class="container-fluid d-flex bg-light border-top flex-wrap justify-content-between align-items-center ">
-    
-      <div class="ms-5 me-5 justify-content-center ">
-        <img src="assets/logos/MediByte2.png" alt="" width="200px" class="justify-content-center" >
-      </div>
-    
-    
-  
-    <div class= "ms-5 me-5 text-center justify-content-center">
-     <span class="text-muted ">&copy; 2022 Medibyte.com</span>
-     <br>
-    <span class="text-muted ">Todos los derechos reservados</span>
-    </div>
-  
-    
-      <div class="m-4 me-5 d-flex flex-wrap ">
-        <a href="https://www.twitter.com" class="ms-3 me-3"><img src="assets/icons/twitter.png" alt="" width="30px"></a>
-        <a href="https://www.instagram.com" class="ms-3 me-3"><img src="assets/icons/instagram.png" alt="" width="30px"></a>
-        <a href="https://www.Facebook.com" class="ms-3 me-3"><img src="assets/icons/facebook.png" alt="" width="30px"></a>
-        
-      </div> 
-    
-    
-    
-  
-</footer>
-<!-- Inicio de footer ------------------------------------------------------------------------->
-          
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<footer class="container-fluid d-flex bg-light border-top flex-wrap justify-content-around justify-content-lg-between align-items-center">
+  <div class="ms-5 me-5">
+    <img src="assets/logos/MediByte2.png" alt="" width="200px" >
+  </div>
 
+  <div class= "ms-5 me-5 text-center">
+   <span class="text-muted">&copy; 2022 Medibyte.com</span>
+   <br>
+  <span class="text-muted">Todos los derechos reservados</span>
+  </div>
+
+  <div class="m-2 me-5 d-flex">
+    <a href="https://www.twitter.com" class="ms-3 me-3" target="_blank"><img src="assets/icons/twitter.png" alt="" width="30px"></a>
+    <a href="https://www.instagram.com" class="ms-3 me-3" target="_blank"><img src="assets/icons/instagram.png" alt="" width="30px"></a>
+    <a href="https://www.Facebook.com" class="ms-3 me-3" target="_blank"><img src="assets/icons/facebook.png" alt="" width="30px"></a>
+  </div>
+</footer>
+<!-- final de footer ------------------------------------------------------------------------->          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <div class="m-2 me-5 d-flex">
         <a href="https://www.twitter.com" class="ms-3 me-3"
           ><img src="assets/icons/twitter.png" alt="" width="30px"
