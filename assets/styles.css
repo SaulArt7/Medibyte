@@ -552,10 +552,10 @@ button img{
 .contacto-form input, .contacto-form textarea{
     border: 1px solid #ced4da;
     border-radius: .3rem;
-    -webkit-border-radius: .3rem;
-    -moz-border-radius: .3rem;
-    -ms-border-radius: .3rem;
-    -o-border-radius: .3rem;
+    outline: none;
+}
+.contacto-info .icon-info{
+    filter: invert(17%) sepia(32%) saturate(6868%) hue-rotate(195deg) brightness(96%) contrast(101%);
 }
 .contacto-form button{
     background: none;
@@ -570,7 +570,7 @@ button img{
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 10%;
+    width: 20%;
     height: 2px;
     background: #004E92;
     border-radius: 50px;
@@ -578,5 +578,9 @@ button img{
     transition: .25s ease;
 }
 .contacto-form button:hover::after{
+    width: 100%;
+}
+
+.mapa iframe{
     width: 100%;
 }
