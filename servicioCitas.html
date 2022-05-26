@@ -10,43 +10,55 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/styles.css" />
+
+    <script src="assets/functions.js"> </script>
 
     <title>MEDIByte</title>
   </head>
   <body>
+
+    <div class="container-fluid fix-fixed-top"><!--  Soluciona problema generado con la Navbar en fixed-top -->    
+    </div>    
+
    <!-- Navbar -->
    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex p-0 fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-5 p-0" href="index.html"><img src="assets/logos/MediByte2.png" alt="logo" width="170px"></a>
+         
+    <a class="navbar-brand ms-5 p-0" href="#"><img src="assets/logos/MediByte2.png" alt="logo" width="170px"></a>
 
-      <div class="links-navbar pt-3 pb-2">
+    
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse me-4" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link underline" aria-current="page" href="index.html">Inicio</a>
-          <a class="nav-link underline" href="#nosotros">Nosotros</a>
-          <a class="nav-link underline" href="#servicios">Servicios</a>
-          <a class="nav-link underline me-3" href="#contacto">Contacto</a>
-          <a class="nav-link navbar-btn" href="login.html" target="_blank">Iniciar Sesión</a>
-        </div>
-      </div>
-
+    <button class="navbar-toggler me-3" type=button data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     
+  
+    <div class="collapse navbar-collapse ms-4 me-4 links-navbar pt-3 pb-2 justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link underline" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link underline" href="#nosotros">Nosotros</a>
+        <a class="nav-link underline" href="#servicios">Servicios</a>
+        <a class="nav-link underline me-3" href="#contacto">Contacto</a>
+        <a class="nav-link navbar-btn text-center" href="login.html" target="_blank">Iniciar Sesión</a>
+      </div>  
     </div>
-    </div>
-  </nav>
+
+  
+  
+</nav>
 <!-- Fin de NavBar -------------------------------------------------------------------------------> 
 
     <!-- Inicia Panel de Control ---------------------------------------------------------------------->
 
     <div class="container">
       <div class="row">
-        <div class="col-12 mt-5 pt-5 text-center">
+        <div class="col-12 text-center">
           <h2 class ="title-color">
             Agendamiento de Citas desde Casa
           </h2>
@@ -108,7 +120,7 @@
     <div class="col-12 text-center">
       <h2 class ="m-4 title-color">
         Ejemplo de Agendamiento Rápido
-        <div class="m-3" id="liveAlertPlaceholder"></div>
+        <div class="m-3 fs-7" id="liveAlertPlaceholder"></div>
       </h2>
     </div>
   </div>
@@ -116,9 +128,8 @@
 
 <div class="container col-8">
 
-  <table class="table table-bordered table-primary text-center">
+  <table class="table table-bordered table-infox text-center">
     <!-- <table class="table table-hover"> -->
-
     <thead>
       <tr>
         <th colspan="3">Agenda Dr. Méndez</th>
@@ -134,7 +145,7 @@
     </thead>
 
     <tbody>
-      <tr class="table-warning">
+      <tr class="table-warningx">
         <th scope="row">1</th>
         <td>08:00 am</td>
         <td class="text-muted">Agendada</td>
@@ -144,7 +155,7 @@
         <td>08:30 am</td>
         <td class="text-muted"> <button type="button" class="btn btn-info" id="liveAlertBtn">Agendar</button> </td>
       </tr>
-      <tr class="table-warning">
+      <tr class="table-warningx">
         <th scope="row">3</th>
         <!-- <td colspan="2">Larry the Bird</td> -->
         <td>09:00 am</td>
@@ -155,7 +166,7 @@
         <td>09:30 am</td>
         <td class="text-muted"><button type="button" class="btn btn-info" id="liveAlertBtn2">Agendar</button></td>
       </tr>
-      <tr class="table-warning">
+      <tr class="table-warningx">
         <th scope="row">5</th>
         <td>10:00 am</td>
         <td class="text-muted"><button type="button" class="btn btn-info" id="liveAlertBtn3">Agendar</button></td>
@@ -211,7 +222,7 @@ if (alertTrigger || alertTrigger2 || alertTrigger3 ) {
     ></script>
 
 <!-- Inicio de footer --------------------------------------------------------------------------->
-<footer class="container-fluid d-flex bg-light border-top flex-wrap justify-content-between align-items-center">
+<footer class="container-fluid d-flex bg-light border-top flex-wrap justify-content-around justify-content-lg-between align-items-center">
   <div class="ms-5 me-5">
     <img src="assets/logos/MediByte2.png" alt="" width="200px" >
   </div>
@@ -223,13 +234,13 @@ if (alertTrigger || alertTrigger2 || alertTrigger3 ) {
   </div>
 
   <div class="m-2 me-5 d-flex">
-    <a href="https://www.twitter.com" class="ms-3 me-3"><img src="assets/icons/twitter.png" alt="" width="30px"></a>
-    <a href="https://www.instagram.com" class="ms-3 me-3"><img src="assets/icons/instagram.png" alt="" width="30px"></a>
-    <a href="https://www.Facebook.com" class="ms-3 me-3"><img src="assets/icons/facebook.png" alt="" width="30px"></a>
+    <a href="https://www.twitter.com" class="ms-3 me-3" target="_blank"><img src="assets/icons/twitter.png" alt="" width="30px"></a>
+    <a href="https://www.instagram.com" class="ms-3 me-3" target="_blank"><img src="assets/icons/instagram.png" alt="" width="30px"></a>
+    <a href="https://www.Facebook.com" class="ms-3 me-3" target="_blank"><img src="assets/icons/facebook.png" alt="" width="30px"></a>
     
   </div> 
 </footer>
-<!-- Inicio de footer ------------------------------------------------------------------------->
+<!-- final de footer ------------------------------------------------------------------------->
 
   </body>
 </html>

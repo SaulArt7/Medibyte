@@ -1,0 +1,53 @@
+Generales:
+
+* Carpetas:
+- assets
+--- images
+----- banner
+----- backgrounds
+----- servicioCompra
+------- products
+----- servicioCitas
+----- servicioControl
+--- icons
+--- logos
+styles.css
+functions.css
+
+ * Botón estandarizado con color del Botón de página del Login
+
+*Danilo*
+NavBar y nosotros:
+* Banner (3):
+-- "La atención humanizada inicia desde que solicitas la cita en tu móvil."
+-- "Datos en tiempo real para decisiones realmente acertadas.
+-- "Tus medicamentos de forma oportuna y segura".
+* Textos definitivos de Sección "nosotros"
+* Responsive de Sección "nosotros": ¿Otra manera?
+* Imágenes definitivas de Sección "nosotros"
+// Preguntar profe: Botón de Hamburguesa en reposive
+
+*Brayan*
+- Servicios: 
+* Imágenes definitivas
+- Página de testimonios
+
+*Julián*
+* Revisar responsive con bootstrap en formulario de contacto
+* Hacer responsive el footer
+
+Cristian R:
+E-Commerce:
+* Hacer responsive las tarjetas de productos
+* Quitar textos largos: Sugerido: Sólo Nombre de medicamento y precio.
+* Botón estandarizado en las tarjetas
+
+Cristian G:
+* Colaborar en imágenes a los compañeros'.
+
+*Saúl*
+Servicio Control:
+* Arreglar espaciado por la NavBar Fija arriba (después del Merge) ***
+* Imágenes sin bordes, con box-shadow
+Servicio Citas:
+* Colores de tabla de la paleta: dejar azul blanco intercalados.
