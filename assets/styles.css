@@ -584,3 +584,9 @@ button img{
 .mapa iframe{
     width: 100%;
 }
+.video{
+    margin: auto;
+    width: clamp(20rem, 50vw, 1000px);
+    height: clamp(11.25rem, 28vw, 562px);
+    
+}
