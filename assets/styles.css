@@ -381,24 +381,6 @@ font-family: 'Sora', sans-serif !important;
     margin-left: 2rem !important;
 }
 
-
-.bgbody {
-  /* background: url(/Medibyte/assets/images/backgrounds/background.jpg) no-repeat center center fixed; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(        
-    0deg,
-  rgba(0, 136, 255, 0.502),  
-  rgba(255, 255, 255, 0.604)
-  );
-  max-width: 100vw;
-  min-height: 100vh;
-}
-
-
 /* Danilo */
 
 .nav-link {
