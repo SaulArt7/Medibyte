@@ -80,7 +80,7 @@ font-family: 'Sora', sans-serif !important;
     }
     
     .title-color {
-        color: #004E92;
+        color: #004E92 !important;
     }
 
    /*  .responsive-form {
@@ -373,6 +373,75 @@ font-family: 'Sora', sans-serif !important;
 
 .ms-11 {
     margin-left: 2rem !important;
+}
+
+/* TEMA OSCURO */
+.bdark12 {
+    background-image: url(/Medibyte/assets/images/luna.png);
+    background-repeat: no-repeat;
+    background-size: 32px 30px;
+    background-position: center;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: transparent; 
+}
+
+.bdark12:hover {
+    background-image: url(/Medibyte/assets/images/lunahover.png);
+}
+
+body.darkmode {
+    background-color: rgb(32, 32, 44);
+    color: white;
+}
+
+.darkmode nav {
+    background-color: rgb(32, 32, 44) !important;
+}
+
+.darkmode .bdark12 {
+    background-image: url(/Medibyte/assets/images/solblanco.png);
+    background-repeat: no-repeat;
+    background-size: 32px 30px;
+    background-position: center;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: transparent; 
+}
+
+.darkmode .bdark12:hover{
+    background-image: url(/Medibyte/assets/images/solhover.png);
+}
+
+.darkmode .nav-link {
+    color: white !important;
+}
+
+.darkmode .navbar-btn {
+    border: white !important;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.darkmode .navbar-btn:hover {
+    border: white solid 0.21rem !important;
+    background-color: #ffffff00;
+    color: white !important;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.darkmode .nosotros {
+    color: white !important;
+}
+
+.darkmode .ultimo{
+    background-color: rgb(32, 32, 44) !important;
+    color: white !important;
 }
 
 /* Danilo */

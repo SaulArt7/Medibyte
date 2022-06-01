@@ -57,6 +57,8 @@
               target="_blank"
               >Iniciar Sesión</a
             >
+            <button class="bdark12 ms-1 pe-0 me-0" id="bdark">
+            </button>
           </div>
         </div>
       </nav>
@@ -67,7 +69,7 @@
     <section>
       <div
         id="carouselFade"
-        class="carousel slide carousel-fade mt-5 pt-5"
+        class="carousel slide carousel-fade mt-4 pt-5"
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
@@ -120,7 +122,7 @@
     </div>
     <section>
       <div class="container d-flex justify-content-center title-color pt-0">
-        <h2>NOSOTROS</h2>
+        <h2 class="nosotros">NOSOTROS</h2>
       </div>
       <div class="container d-block d-sm-none justify-content-center flex-wrap">
         <div class="align-content-start d-flex justify-content-center">
@@ -190,10 +192,10 @@
       <!--  Este div soluciona problema de visualización generado con la Navbar en fixed-top -->
     </div>
     <section class="servicios container text-center">
-      <h2 class="title-color mb-5">Servicios para:</h2>
+      <h2 class="title-color mb-5 nosotros">Servicios para:</h2>
       <div class="d-flex flex-wrap justify-content-around mx-5 gap-5">
         <div class="seccion-parte">
-          <h3 class="title-color my-4">Instituciones</h3>
+          <h3 class="title-color my-4 nosotros">Instituciones</h3>
           <img src="assets/images/Doctor.png" alt="" />
           <p>Controla en tiempo real tus indicadores, tu calidad.</p>
           <button
@@ -201,7 +203,7 @@
             onclick="location.href='servicioControl.html'"
             target="_blank"
           >
-            <span>Ver Más</span>
+            <span class="nosotros">Ver Más</span>
             <svg viewBox="0 0 13 10" height="9px" width="15px">
               <path d="M1,5 L11,5"></path>
               <polyline points="8 1 12 5 8 9"></polyline>
@@ -209,11 +211,11 @@
           </button>
         </div>
         <div class="seccion-parte">
-          <h3 class="title-color my-4">Especialistas</h3>
+          <h3 class="title-color my-4 nosotros">Especialistas</h3>
           <img src="assets/images/Doctor.png" alt="" />
           <p>Publica tu perfil, tu agenda disponible</p>
           <button class="boton" onclick="location.href='servicioCitas.html'">
-            <span>Ver Más</span>
+            <span class="nosotros">Ver Más</span>
             <svg viewBox="0 0 13 10" height="9px" width="15px">
               <path d="M1,5 L11,5"></path>
               <polyline points="8 1 12 5 8 9"></polyline>
@@ -221,11 +223,11 @@
           </button>
         </div>
         <div class="seccion-parte">
-          <h3 class="title-color my-4">Usuarios</h3>
+          <h3 class="title-color my-4 nosotros">Usuarios</h3>
           <img src="assets/images/Doctora.png" alt="" />
           <p>Adquiere tus medicamentos, opotunamente</p>
           <button class="boton" onclick="location.href='servicioCompra.html'">
-            <span>Ver Más</span>
+            <span class="nosotros">Ver Más</span>
             <svg viewBox="0 0 13 10" height="9px" width="15px">
               <path d="M1,5 L11,5"></path>
               <polyline points="8 1 12 5 8 9"></polyline>
@@ -241,7 +243,7 @@
     </div>
     <section class="testimonios container mt-5">
       <div class="col-md-8 m-auto text-center">
-        <h2 class="title-color mb-5">Testimonios</h2>
+        <h2 class="title-color mb-5 nosotros">Testimonios</h2>
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -252,7 +254,7 @@
               <div class="img-box mb-5">
                 <img src="assets/images/Testimonio-face1.jpg" alt="..." />
               </div>
-              <p class="test mx-auto">
+              <p class="test mx-auto nosotros">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu
                 sem tempor, varius quam at, luctus dui. Mauris magna metus,
                 dapibus nec turpis vel, semper malesuada ante. Idac bibendum
@@ -264,7 +266,7 @@
               <div class="img-box mb-5">
                 <img src="assets/images/Testimonio-face2.jpg" alt="..." />
               </div>
-              <p class="test mx-auto">
+              <p class="test mx-auto nosotros">
                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Adipisci temporibus aperiam sint pariatur deserunt voluptate
                 omnis dicta, at consequuntur dolorem? Cum eum earum quas veniam
@@ -276,7 +278,7 @@
               <div class="img-box mb-5">
                 <img src="assets/images/Testimonio-face3.jpg" alt="..." />
               </div>
-              <p class="test mx-auto">
+              <p class="test mx-auto nosotros">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
                 distinctio laudantium consequatur sunt labore, numquam quasi
                 nisi iusto consequuntur dignissimos excepturi inventore
@@ -288,7 +290,7 @@
               <div class="img-box mb-5">
                 <img src="assets/images/Testimonio-face4.jpg" alt="..." />
               </div>
-              <p class="test mx-auto">
+              <p class="test mx-auto nosotros">
                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Laboriosam voluptate ipsa sed ducimus iusto molestias cum
                 molestiae velit ex quae dolor fugit mollitia, esse quo nostrum
@@ -300,7 +302,7 @@
               <div class="img-box mb-5">
                 <img src="assets/images/Testimonio-face5.jpg" alt="..." />
               </div>
-              <p class="test mx-auto">
+              <p class="test mx-auto nosotros">
                 "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Praesentium dolorem quo perspiciatis laborum sunt hic ut maxime,
                 iste quae illo repellat ab, odit cumque quis veniam suscipit
@@ -312,7 +314,7 @@
               <div class="img-box mb-5">
                 <img src="assets/images/Testimonio-face6.jpg" alt="..." />
               </div>
-              <p class="test mx-auto">
+              <p class="test mx-auto nosotros">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 non consequuntur assumenda doloribus quam! Ipsum asperiores enim
                 quo. Odio explicabo expedita illum iste dolor vero repellendus
@@ -355,7 +357,7 @@
     <!-- Fin de Sección Testimonios -------------------------------------------------------------------->
     <!-- Inicio de Sección de Prueba Video ------------------------------------------------------------------->
     <section class="container text-center">
-      <p class="h4 title-color mt-5 mb-4">
+      <p class="h4 title-color mt-5 mb-4 nosotros">
         Las mejores características de nuestra plataforma:
       </p>
       <div>
@@ -375,7 +377,7 @@
       <!--Titulo-->
       <div class="mt-5 mb-4">
         <div>
-          <h2 class="dark-blue-text text-center">Formulario de Contacto</h2>
+          <h2 class="dark-blue-text text-center nosotros">Formulario de Contacto</h2>
         </div>
       </div>
 
@@ -413,18 +415,18 @@
         <!--Ubicaicón-->
         <div class="contacto-info col-sm-12 col-md-4" >
           <div class="d-flex justify-content-center mb-5" >
-            <h2 class="title-color">Contáctanos</h2>
+            <h2 class="title-color nosotros">Contáctanos</h2>
           </div>
 
           <div class="text-center mb-5">
-            <p class="fw-bold title-color"><img class="icon-info" src="assets/images/llamada-telefonica.png" alt="imagen prueba"> &nbsp;&nbsp;LLÁMANOS</p>
+            <p class="fw-bold title-color nosotros"><img class="icon-info" src="assets/images/llamada-telefonica.png" alt="imagen prueba"> &nbsp;&nbsp;LLÁMANOS</p>
             <p>1(234)567-891, 1(234)987-654</p>
           </div>
 
           <div class="text-center mb-5"> 
             <div>
               <button class="mapa mb-3" data-bs-toggle="modal" data-bs-target="#fm-modal-mapa">
-                <p class="fw-bold title-color m-0"><img class="icon-info" src="assets/images/marcador-de-posicion.png"  alt=""> &nbsp;&nbsp;VER MAPA</p>
+                <p class="fw-bold title-color m-0 nosotros"><img class="icon-info" src="assets/images/marcador-de-posicion.png"  alt=""> &nbsp;&nbsp;VER MAPA</p>
               </button>
               <div class="mapa modal fade" id="fm-modal-mapa" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
@@ -441,7 +443,7 @@
           
           
           <div class="text-center">
-            <p class="fw-bold title-color"><img class="icon-info" src="assets/images/horas-laborales.png"  alt="imagen prueba"> &nbsp;&nbsp;HORARIO</p> 
+            <p class="fw-bold title-color nosotros"><img class="icon-info" src="assets/images/horas-laborales.png"  alt="imagen prueba"> &nbsp;&nbsp;HORARIO</p> 
             <p>Lunes a Viernes 7am-5pm</p>
           </div>
         </div>
@@ -452,16 +454,16 @@
     <!-- Fin de Sección de Contacto 2------------------------------------------------------------------->
     <!-- Inicio de footer --------------------------------------------------------------------------->
     <footer
-      class="container-fluid d-flex bg-light border-top flex-wrap justify-content-around justify-content-lg-between align-items-center"
+      class="ultimo container-fluid d-flex bg-light border-top flex-wrap justify-content-around justify-content-lg-between align-items-center"
     >
       <div class="ms-5 me-5">
         <img src="assets/logos/MediByte2.png" alt="" width="200px" />
       </div>
 
       <div class="ms-5 me-5 text-center">
-        <span class="text-muted">&copy; 2022 Medibyte.com</span>
+        <span class="text-muted nosotros">&copy; 2022 Medibyte.com</span>
         <br />
-        <span class="text-muted">Todos los derechos reservados</span>
+        <span class="text-muted nosotros">Todos los derechos reservados</span>
       </div>
 
       <div class="m-2 me-5 d-flex">
@@ -482,5 +484,33 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const bdark = document.querySelector('#bdark');
+      const body = document.querySelector('body');
+
+      load();
+
+      bdark.addEventListener('click', e =>{
+        body.classList.toggle('darkmode');
+        store(body.classList.contains('darkmode'));
+      });
+
+      function load(){
+        const darkmode = localStorage.getItem('darkmode');
+
+        if(!darkmode){
+          store('false');
+        }else if(darkmode == 'true'){
+          body.classList.add('darkmode');
+        }
+      }
+
+      function store(value){
+        localStorage.setItem('darkmode', value);
+      }
+
+    </script>
+
   </body>
 </html>
