@@ -391,9 +391,14 @@ font-family: 'Sora', sans-serif !important;
     background-image: url(/Medibyte/assets/images/lunahover.png);
 }
 
+body {
+    transition: all 0.4s;
+}
+
 body.darkmode {
     background-color: rgb(32, 32, 44);
     color: white;
+    transition: all 0.4s;
 }
 
 .darkmode nav {
